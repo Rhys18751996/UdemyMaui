@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="UdemyMaui.ContentPageDemo"
              Title="ContentPageDemo"
-             BackgroundColor="DarkGrey">
+             BackgroundColor="DarkBlue">
     
     <VerticalStackLayout>
         <Label 

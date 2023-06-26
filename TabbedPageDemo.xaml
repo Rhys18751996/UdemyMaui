@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UdemyMaui.TabbedPageDemo"
+             Title="TabbedPageDemo"
+            BarBackgroundColor="DarkBlue"
+            BarTextColor="WhiteSmoke"
+            SelectedTabColor="DarkRed"
+            UnselectedTabColor="DarkKhaki">
+
+    <ContentPage Title="Page 1" IconImageSource="dotnet_bot.svg">
+        <Label Text="Hello from tabbed page, page 1" BackgroundColor="Gray"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center" />
+    </ContentPage>
+    <ContentPage Title="Page 2" IconImageSource="dotnet_bot.svg">
+        <Label Text="Hello from tabbed page, page 2" BackgroundColor="Green"
+                   HorizontalTextAlignment="Start"
+                   VerticalTextAlignment="Center" />
+    </ContentPage>
+    <ContentPage Title="Page 3">
+        <Label Text="Hello from tabbed page, page 3" BackgroundColor="Blue"/>
+    </ContentPage>
+    <ContentPage Title="Page 4"></ContentPage>
+    
+</TabbedPage>

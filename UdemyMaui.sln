@@ -24,12 +24,4 @@ Global
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
 	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://artlinekitchens.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = UdemyMaui.csproj
-		SccLocalPath1 = .
-	EndGlobalSection
 EndGlobal

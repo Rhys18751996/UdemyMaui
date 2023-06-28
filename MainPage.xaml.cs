@@ -1,4 +1,5 @@
-﻿namespace UdemyMaui;
+﻿
+namespace UdemyMaui;
 
 public partial class MainPage : ContentPage
 {
@@ -11,7 +12,16 @@ public partial class MainPage : ContentPage
 
 	private void OnCounterClicked(object sender, EventArgs e)
 	{
-		Navigation.PushAsync(new ContentPageDemo());
+		var person = new Models.Person
+		{
+			Name = "John",
+			Phone = "2342342",
+			Address = "sdfsdfs"
+		};
+
+		BindingContext = person;
+
+		//Navigation.PushAsync(new ContentPageDemo());
 
 		//count++;
 

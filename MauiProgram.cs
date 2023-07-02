@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using UdemyMaui.Repositories;
 
 namespace UdemyMaui;
 
@@ -18,6 +19,8 @@ public static class MauiProgram
 #if DEBUG
 		builder.Logging.AddDebug();
 #endif
+
+		builder.Services.AddSingleton<CustomerRepository>();
 
 		return builder.Build();
 	}

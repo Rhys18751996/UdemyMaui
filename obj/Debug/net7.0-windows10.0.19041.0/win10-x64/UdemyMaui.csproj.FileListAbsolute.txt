@@ -646,3 +646,12 @@ C:\Users\Rhysh\source\repos\UdemyMaui\obj\Debug\net7.0-windows10.0.19041.0\win10
 C:\Users\Rhysh\source\repos\UdemyMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\Rhysh\source\repos\UdemyMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Rhysh\source\repos\UdemyMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\Rhysh\source\repos\UdemyMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLite-net.dll
+C:\Users\Rhysh\source\repos\UdemyMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Rhysh\source\repos\UdemyMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Rhysh\source\repos\UdemyMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.core.dll
+C:\Users\Rhysh\source\repos\UdemyMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Rhysh\source\repos\UdemyMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\e_sqlite3.dll
+C:\Users\Rhysh\source\repos\UdemyMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Bogus.dll
+C:\Users\Rhysh\source\repos\UdemyMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\UdemyMaui.csproj.Fody.CopyLocal.cache
+C:\Users\Rhysh\source\repos\UdemyMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\UdemyMaui.csproj.Fody.RuntimeCopyLocal.cache

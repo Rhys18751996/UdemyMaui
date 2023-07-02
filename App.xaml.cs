@@ -1,11 +1,21 @@
-﻿namespace UdemyMaui;
+﻿using System.Security.Cryptography.X509Certificates;
+using UdemyMaui.MVVM.Views;
+using UdemyMaui.Repositories;
+
+namespace UdemyMaui;
 
 public partial class App : Application
 {
-	public App()
+    // this makes access to database throughout application
+    public static CustomerRepository CustomerRepo { get; private set; }
+
+	public App(CustomerRepository repo)
 	{
 		InitializeComponent();
-        MainPage = new MainPage();
+
+        CustomerRepo = repo;
+
+        MainPage = new SqlPage();
 
         //var navPage = new NavigationPage(new MainPage());
 

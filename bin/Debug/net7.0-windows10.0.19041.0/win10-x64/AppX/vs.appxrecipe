@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\Rhysh\source\repos\UdemyMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-06-28T11:20:29.910</Modified>
+      <Modified>2023-07-02T11:56:33.536</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Rhysh\source\repos\UdemyMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-06-28T11:19:42.553</Modified>
+      <Modified>2023-07-02T11:56:32.958</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rhysh\source\repos\UdemyMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\UdemyMaui.runtimeconfig.json">
       <PackagePath>UdemyMaui.runtimeconfig.json</PackagePath>
-      <Modified>2023-06-28T11:19:42.261</Modified>
+      <Modified>2023-07-02T11:56:32.672</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rhysh\source\repos\UdemyMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\UdemyMaui.dll">
       <PackagePath>UdemyMaui.dll</PackagePath>
-      <Modified>2023-06-28T11:20:28.542</Modified>
+      <Modified>2023-07-02T11:56:30.863</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rhysh\source\repos\UdemyMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>UdemyMaui.exe</PackagePath>
-      <Modified>2023-06-28T11:20:28.554</Modified>
+      <Modified>2023-07-02T11:56:30.881</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rhysh\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.7\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -805,6 +805,10 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2022-11-16T01:34:42.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rhysh\.nuget\packages\bogus\34.0.2\lib\net6.0\Bogus.dll">
+      <PackagePath>Bogus.dll</PackagePath>
+      <Modified>2022-03-27T20:01:04.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rhysh\.nuget\packages\microsoft.extensions.configuration\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
       <Modified>2022-10-18T16:15:22.000</Modified>
@@ -909,6 +913,30 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2022-11-08T19:31:22.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rhysh\.nuget\packages\propertychanged.fody\4.1.0\lib\netstandard2.1\PropertyChanged.dll">
+      <PackagePath>PropertyChanged.dll</PackagePath>
+      <Modified>2022-11-06T16:42:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rhysh\.nuget\packages\sqlite-net-pcl\1.8.116\lib\netstandard2.0\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+      <Modified>2021-09-02T21:04:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rhysh\.nuget\packages\sqlitepclraw.bundle_green\2.0.4\lib\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2020-09-03T17:13:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rhysh\.nuget\packages\sqlitepclraw.bundle_green\2.0.4\lib\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll">
+      <PackagePath>SQLitePCLRaw.nativelibrary.dll</PackagePath>
+      <Modified>2020-09-03T17:13:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rhysh\.nuget\packages\sqlitepclraw.core\2.1.5\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2023-05-19T20:34:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rhysh\.nuget\packages\sqlitepclraw.provider.dynamic_cdecl\2.1.5\lib\netstandard2.0\SQLitePCLRaw.provider.dynamic_cdecl.dll">
+      <PackagePath>SQLitePCLRaw.provider.dynamic_cdecl.dll</PackagePath>
+      <Modified>2023-05-19T20:34:22.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rhysh\.nuget\packages\microsoft.graphics.win2d\1.0.4\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2022-10-04T20:41:34.000</Modified>
@@ -917,9 +945,13 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-11-08T19:31:24.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rhysh\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.4\runtimes\win-x64\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2020-08-17T14:38:20.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rhysh\source\repos\UdemyMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\UdemyMaui.deps.json">
       <PackagePath>UdemyMaui.deps.json</PackagePath>
-      <Modified>2023-06-28T11:20:29.755</Modified>
+      <Modified>2023-07-02T11:56:33.263</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

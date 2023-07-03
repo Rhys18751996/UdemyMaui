@@ -4,13 +4,16 @@
              x:Class="UdemyMaui.MVVM.Views.SqlPage"
              Title="SqlPage">
 
-    <Grid RowDefinitions=".2*, .8*">
-        <VerticalStackLayout>
-            <Entry Placeholder="Name" Text="{Binding CurrentCustomer.Name}" />
-            <Entry Placeholder="Address" Text="{Binding CurrentCustomer.Address}" />
-            <Button Text="Add or Update" Command="{Binding AddOrUpdateCommand}" />
-        </VerticalStackLayout>
-        <CollectionView Grid.Row="1" ItemsSource="{Binding Customers}"/>
-    </Grid>
-
+    <StackLayout Padding="5,5,5,5">
+        <Entry Placeholder="Name" 
+               Text="{Binding CurrentCustomer.Name}" />
+        <Entry Placeholder="Address" 
+               Text="{Binding CurrentCustomer.Address}" />
+        <Button Text="Add or Update" 
+                Command = "{Binding AddOrUpdateCommand}" 
+                Margin="5,5,5,5" />
+        <CollectionView Grid.Row="1" 
+                        ItemsSource="{Binding Customers}" />
+    </StackLayout>
+        
 </ContentPage>

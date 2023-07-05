@@ -17,10 +17,12 @@ namespace UdemyMaui.MVVM.ViewModels
 
         public Customer CurrentCustomer { get; set; }
 
-        public ICommand AddOrUpdateCommand { get; set; } 
+        public ICommand AddOrUpdateCommand { get; set; }
+        public ICommand DeleteCommand { get; set; }
 
         public SqlPageViewModel()
         {
+            Refresh();
             GenerateNewCustomer();
 
             AddOrUpdateCommand = new Command(async () =>
@@ -28,6 +30,13 @@ namespace UdemyMaui.MVVM.ViewModels
                 App.CustomerRepo.AddOrUpdate(CurrentCustomer);
                 Console.WriteLine(App.CustomerRepo.StatusMessage);
                 GenerateNewCustomer();
+                Refresh();
+            });
+
+            DeleteCommand = new Command(() =>
+            {
+                App.CustomerRepo.Delete(CurrentCustomer.Id);
+                Refresh();
             });
         }
 
@@ -37,6 +46,11 @@ namespace UdemyMaui.MVVM.ViewModels
                 .RuleFor(x => x.Name, f => f.Person.FullName)
                 .RuleFor(x => x.Address, f => f.Person.Address.Street)
                 .Generate();
+        }
+
+        private void Refresh()
+        {
+            Customers = App.CustomerRepo.GetAll();
         }
     }
 }

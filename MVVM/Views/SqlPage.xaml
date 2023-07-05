@@ -12,8 +12,29 @@
         <Button Text="Add or Update" 
                 Command = "{Binding AddOrUpdateCommand}" 
                 Margin="5,5,5,5" />
-        <CollectionView Grid.Row="1" 
-                        ItemsSource="{Binding Customers}" />
+
+        <CollectionView Grid.Row="1" ItemsSource="{Binding Customers}"
+                        SelectionMode="Single"
+                        SelectedItem="{Binding CurrentCustomer}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <SwipeView>
+                        <SwipeView.LeftItems>
+                            <SwipeItems>
+                                <SwipeItem Text="Delete"
+                                           BackgroundColor="Purple"
+                                           Command="{Binding DeleteCommand}" />
+                            </SwipeItems>
+                        </SwipeView.LeftItems>
+                    
+                        <Grid ColumnDefinitions="*,*">
+                            <Label Grid.Column="0" Text="{Binding Name}" />
+                            <Label Grid.Column="1"  Text="{Binding Address}" />
+                        </Grid>
+                    </SwipeView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
     </StackLayout>
         
 </ContentPage>

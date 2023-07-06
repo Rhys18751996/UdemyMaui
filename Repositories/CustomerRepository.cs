@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using UdemyMaui.MVVM.Models;
@@ -44,6 +45,19 @@ namespace UdemyMaui.Repositories
             {
                 StatusMessage = $"Error: {ex.Message}";
             }
+        }
+
+        public List<Customer> FlexibleGetAll(Expression<Func<Customer, bool>> predicate)
+        {
+            try
+            {
+                return connection.Table<Customer>().Where(predicate).ToList();
+            }
+            catch (Exception ex)
+            {
+                StatusMessage = $"Error: {ex.Message}";
+            }
+            return null;
         }
 
         public List<Customer> GetAll()

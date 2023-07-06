@@ -50,7 +50,8 @@ namespace UdemyMaui.MVVM.ViewModels
 
         private void Refresh()
         {
-            Customers = App.CustomerRepo.GetAll();
+            //Customers = App.CustomerRepo.GetAll();
+            Customers = App.CustomerRepo.FlexibleGetAll(x => x.Name.StartsWith("A"));
         }
     }
 }

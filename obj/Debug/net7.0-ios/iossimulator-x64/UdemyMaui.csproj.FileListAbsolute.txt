@@ -538,3 +538,11 @@ C:\Users\Rhysh\source\repos\UdemyMaui\obj\Debug\net7.0-ios\iossimulator-x64\Udem
 C:\Users\Rhysh\source\repos\UdemyMaui\obj\Debug\net7.0-ios\iossimulator-x64\UdemyMaui.genruntimeconfig.cache
 C:\Users\Rhysh\source\repos\UdemyMaui\obj\Debug\net7.0-ios\iossimulator-x64\ref\UdemyMaui.dll
 C:\Users\Rhysh\source\repos\UdemyMaui\obj\Debug\net7.0-ios\iossimulator-x64\build-signature\signature
+C:\Users\Rhysh\source\repos\UdemyMaui\bin\Debug\net7.0-ios\iossimulator-x64\Bogus.dll
+C:\Users\Rhysh\source\repos\UdemyMaui\bin\Debug\net7.0-ios\iossimulator-x64\SQLite-net.dll
+C:\Users\Rhysh\source\repos\UdemyMaui\bin\Debug\net7.0-ios\iossimulator-x64\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Rhysh\source\repos\UdemyMaui\bin\Debug\net7.0-ios\iossimulator-x64\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Rhysh\source\repos\UdemyMaui\bin\Debug\net7.0-ios\iossimulator-x64\SQLitePCLRaw.core.dll
+C:\Users\Rhysh\source\repos\UdemyMaui\bin\Debug\net7.0-ios\iossimulator-x64\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Rhysh\source\repos\UdemyMaui\obj\Debug\net7.0-ios\iossimulator-x64\UdemyMaui.csproj.Fody.CopyLocal.cache
+C:\Users\Rhysh\source\repos\UdemyMaui\obj\Debug\net7.0-ios\iossimulator-x64\UdemyMaui.csproj.Fody.RuntimeCopyLocal.cache
